@@ -1,0 +1,12 @@
+.card-stack {
+    margin-top: 3rem;
+}
+
+.card-stack .card:not(:first-child) {
+    margin-top: -202px;
+}
+
+.card {
+    margin: 0 auto;
+    position: relative;
+}

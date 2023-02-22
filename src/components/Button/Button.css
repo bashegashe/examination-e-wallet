@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 382px;
+    height: 80px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    transition: background 400ms, color 400ms;
+}

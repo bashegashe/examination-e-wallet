@@ -1,0 +1,32 @@
+.card-form {
+    width: 382px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+input, select {
+    width: 100%;
+    height: 56px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    color: #000000CC;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    
+    padding: 1rem;
+    outline: none;
+    margin-top: .25rem;
+    margin-bottom: 1.5rem;
+}
+
+select {
+    background: #fff;
+    margin-bottom: 0;
+}
+
+.flex-1 {
+    display: flex; 
+    gap: 2.5rem;
+}

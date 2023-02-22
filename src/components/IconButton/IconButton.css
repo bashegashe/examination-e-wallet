@@ -1,0 +1,46 @@
+.iconButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background: inherit;
+}
+
+.iconButton__text {
+    margin-bottom: .5rem;
+    white-space: nowrap;
+    user-select: none;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    border-radius: 2px;
+    padding: 4px;
+    opacity: .9;
+}
+
+.iconButton__button {
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,.2), 2px 2px 1px rgba(0,0,0,.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+    margin: 0;
+    border: none;
+    padding: 1rem;
+    background: inherit;
+    color: inherit;
+}
+
+.iconButton__button:hover {
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,.2), 3px 3px 1px rgba(0,0,0,1);
+}
+
+.iconButton__button:hover svg {
+    transform: scale(1.2);
+}
+
+.iconButton__button svg {
+    width: 55px;
+    height: 55px;
+}

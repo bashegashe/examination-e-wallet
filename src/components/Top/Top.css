@@ -1,0 +1,24 @@
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 35px;
+    color: #222222;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(34, 34, 34, 0.6);
+}
