@@ -2,4 +2,4 @@
 
 Individuell examination: E-WALLET
 
-av Bachir Sbinati
+- Bachir Sbinati
